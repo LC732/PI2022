@@ -1,0 +1,228 @@
+
+
+
+body
+   {
+   background:url('../imagens/fundorb.jpg') ;
+   margin:0px;
+   padding:0px;
+   background-attachment:fixed;
+   color:#D1E8FF;
+   }
+   
+   .icon{
+	   icon:url("../imagens/fundorb.bmp")
+	   
+   }
+   
+   .menu{
+	margin: auto;
+	position:fixed;
+	float:top;
+	height:40px;
+	width:100%;
+	background-color: #6E502E;
+	z-index:2;
+	border-bottom: 3px solid #D1E8FF;
+	box-shadow:
+    inset 0 0 0 2px #6E502E;
+}
+.but{
+	color: #D1E8FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #D1E8FF;
+	margin: 5px;
+	width:auto;
+	height:25px;
+	float: right;
+	text-align: center;
+	background-color: #6E502E;
+	position:relative;
+	top:1px;
+	bottom:2px;
+	z-index:3;
+	padding-right:12px;
+	padding-left:12px;
+	border-radius:5px;
+}
+
+.fim{
+	float:right;
+	
+}
+.title
+{
+	text-align: center;
+	font-family:  'Times New Roman', serif;
+	color: #D1E8FF ;
+	font-size: 38px;
+}
+
+.logo{
+	float:right;
+	background-image:url=('../imagens/------'); /*<---- aqui o logo*/
+	z-index:3;
+}
+
+.text{
+	width:960px;
+	border: 3px solid #D1E8FF;
+	margin: 0px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: justify;
+	height: auto;
+	background-color: #6E502E;
+	position:relative;
+	top:100px;
+	z-index:1;
+	box-shadow:
+    inset 0 0 0 2px #D1E8FF;
+	padding-bottom:25px;
+	padding-left:10px;
+	padding-top:25px;
+	padding-right:10px;
+	overflow:;
+}
+
+
+
+h1{
+	text-align:center;
+}
+
+a:link{
+	text-decoration:none;
+}
+p:first-letter{
+	font-size:30px;
+	vertical-align:text-top;
+	float:left;
+	margin-right:2.5px;
+}
+.img1{
+	float:right;
+	position:relative;
+	top:50px;
+	left:;
+}
+.img2{
+	float:right;
+	padding-left:3px;
+}
+
+.img3{
+	max-width: 100%;
+    display: block;
+    margin:0 auto;
+	
+}
+
+
+.div{
+	
+	border:1px solid #999; 
+	width: 225px;
+	height:304px;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;	
+	overflow: hidden;
+	border-radius: 100px;
+	position: absolute;
+	left:7.5%;
+
+}
+.div:hover {
+	width: auto;
+	height:304px;
+	left:7.5%;
+	z-index:1;
+	border-radius:  10px ;
+}
+
+.imagem{
+	width: 540px;
+	height:304px;
+	vertical-align:top;
+	float:right;
+
+}
+
+.divb{
+	
+	border:1px solid #999; 
+	width: 225px;
+	height:304px;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;	
+	overflow: hidden;
+	border-radius: 100px;
+	position: absolute;
+	left:38.5%;
+	
+}
+.divb:hover {
+	width: 540px;
+	height:304px;
+	right:100%;
+	left:20%;
+	z-index:1;
+	border-radius: 10px
+}
+
+.imagemb{
+	width: 540px;
+	height:304px;
+	vertical-align:top;
+	float:left;
+
+}
+
+.divc{
+	
+	border:1px solid #999; 
+	width: 225px;
+	height:304px;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;	
+	overflow: hidden;
+	border-radius: 100px;
+	position: absolute;
+	right:7.5%;
+
+}
+.divc:hover {
+	width: 540px;
+	height:304px;
+	right:7.5%;
+	z-index:1;
+	border-radius:  10px ;
+}
+
+.imagemc{
+	width: 540px;
+	height:304px;
+	vertical-align:top;
+	float:left;
+
+}
+.la{
+	top: 180px;
+}
+
+.lb{
+	top: 520px;
+}
+
+.lc{
+	top: 860px;
+	
+}
